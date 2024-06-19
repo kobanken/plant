@@ -1,2 +1,2 @@
-# プロジェクト名
+# Headspa Plant Website
 このプロジェクトはAstroとTailwindCSSを使用しています。

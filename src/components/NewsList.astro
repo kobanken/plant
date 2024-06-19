@@ -1,0 +1,9 @@
+---
+import type { Plant } from '../fetchPlants.ts';
+import { fetchPlants } from '../fetchPlants.ts';
+import NewsListReact from './NewsListReact';
+
+const plants: Plant[] = await fetchPlants();
+---
+
+<NewsListReact plants={plants} />
